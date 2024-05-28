@@ -1,26 +1,29 @@
-# DVFPS
+# Damn Vulnerable FPS (DVFPS)
 
-DVFPS aims to demonstrate the core risks which are detailed in the [OWASP Game Security Framework](https://owasp.org/www-project-game-security-framework/).
+## Project Description
 
-# Project Goals
+This project is a deliberately vulnerable First-Person Shooter (FPS) game developed using the Godot Engine and a custom C++ network stack. The primary purpose of this project is to teach game security concepts by exposing common vulnerabilities and demonstrating how they can be exploited and mitigated.
 
-The project aims to align with the OWASP Game Security Framework to serve as a practical demonstration of the concepts defined within. The project also aims to implement the following systems with various deliberate vulnerabilites:
+## Features
 
-- [ ] Deathmatch game mode
-- [ ] Team Deathmatch game 
-- [ ] Bomb plant game mode
-- [ ] User accounts
-- [ ] Embedded cosmetics store page
-- [ ] Standalone launcher application (separate repo)
-- [ ] Infrastructre as code deployments (sparate repo)
-- [ ] Configurable game security features
-- [ ] Configurable network architectures
-- [ ] Hacking CTF mode (*TODO* design this concept)
+- **Custom C++ Network Stack**: The game uses a custom-built network stack to handle multiplayer interactions.
+- **Deliberate Vulnerabilities**: Includes common security flaws such as SQL injection, buffer overflow, and insecure authentication, flawed sever authority, and more.
+- **Educational Focus**: Designed to help developers understand and learn how to secure game applications.
+- **Godot Engine**: Utilizes the Godot Engine for game development, providing a robust and flexible platform for creating 2D and 3D games.
 
-# High-Level Design 
+## Getting Started
 
-*TODO*
+### Prerequisites
+TODO
 
-# Client/Sever Architecture
+## License
 
-*TODO*
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- **Godot Engine**: For providing an excellent open-source game development platform.
+
+---
+
+*This project is intended for educational purposes only. Use responsibly and ethically.*
