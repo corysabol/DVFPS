@@ -11,7 +11,7 @@ WORKDIR /usr/src/dvfps-server
 
 COPY . .
 
-RUN mkdir build && cd build && cmake ..
+RUN mkdir build && cd build && cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 ..
 
 RUN cd build && make
 

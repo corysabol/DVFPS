@@ -9,3 +9,6 @@ export_presets.cfg
 
 # engine bin
 /bins
+
+# Rust
+**/target/

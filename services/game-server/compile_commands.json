@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/usr/src/dvfps-server/build",
+  "command": "/usr/bin/cc  -I/usr/src/dvfps-server/include -std=gnu99 -o CMakeFiles/game_server.dir/src/main.c.o -c /usr/src/dvfps-server/src/main.c",
+  "file": "/usr/src/dvfps-server/src/main.c",
+  "output": "CMakeFiles/game_server.dir/src/main.c.o"
+},
+{
+  "directory": "/usr/src/dvfps-server/build",
+  "command": "/usr/bin/cc  -I/usr/src/dvfps-server/include -std=gnu99 -o CMakeFiles/game_server.dir/src/networking.c.o -c /usr/src/dvfps-server/src/networking.c",
+  "file": "/usr/src/dvfps-server/src/networking.c",
+  "output": "CMakeFiles/game_server.dir/src/networking.c.o"
+},
+{
+  "directory": "/usr/src/dvfps-server/build",
+  "command": "/usr/bin/cc  -I/usr/src/dvfps-server/include -std=gnu99 -o CMakeFiles/game_server.dir/src/auth.c.o -c /usr/src/dvfps-server/src/auth.c",
+  "file": "/usr/src/dvfps-server/src/auth.c",
+  "output": "CMakeFiles/game_server.dir/src/auth.c.o"
+},
+{
+  "directory": "/usr/src/dvfps-server/build",
+  "command": "/usr/bin/cc  -I/usr/src/dvfps-server/include -std=gnu99 -o CMakeFiles/game_server.dir/src/game_logic.c.o -c /usr/src/dvfps-server/src/game_logic.c",
+  "file": "/usr/src/dvfps-server/src/game_logic.c",
+  "output": "CMakeFiles/game_server.dir/src/game_logic.c.o"
+}
+]

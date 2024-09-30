@@ -4,6 +4,9 @@ project(DVFPSServer C)
 # Specify the C standard
 set(CMAKE_C_STANDARD 99)
 
+# Export compile commands
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Find and link libcurl
 find_package(CURL REQUIRED)
 include_directories(${CURL_INCLUDE_DIR})
